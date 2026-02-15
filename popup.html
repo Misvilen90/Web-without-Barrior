@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <title>Web Without Barriers</title>
+  <style>
+     body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      width: 260px;
+      padding: 15px;
+      background: linear-gradient(135deg, #1e1e2f, #2c2c54);
+      color: white;
+    }
+
+    h3 {
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+     button {
+      width: 100%;
+      margin: 6px 0;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    button:hover {
+      transform: scale(1.03);
+      opacity: 0.9;
+    }
+    #read { background: #4CAF50; color: white; }
+    #stop { background: #f44336; color: white; }
+    #voice { background: #2196F3; color: white; }
+    #contrast { background: #9C27B0; color: white; }
+    #font { background: #FF9800; color: white; }
+    #decrease { background: #607D8B; color: white; }
+    #simplify { background: #795548; color: white; }
+    #scan { background: #00BCD4; color: black; }
+
+    .footer {
+      text-align: center;
+      margin-top: 10px;
+      font-size: 11px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+ <h3>🌐 Web Without Barriers</h3>
+
+  <button id="read"><span>🔊</span> Read Page</button>
+  <button id="stop"><span>🛑</span> Stop Reading</button>
+  <button id="voice"><span>🎤</span> Voice Scroll</button>
+  <button id="contrast"><span>🌗 </span>High Contrast</button>
+  <button id="font"><span>🔠 </span>Increase Font</button>
+  <button id="decrease"><span>🔡 </span>Decrease Font</button>
+  <button id="simplify"><span>🧠</span> Simplify Layout</button>
+  <button id="scan"><span>🤖</span> AI Scan</button>
+  <div class="footer">
+    AI-Powered Adaptive Accessibility
+  </div>
+  <script src="popup.js"></script>
+
+</body>
+</html>

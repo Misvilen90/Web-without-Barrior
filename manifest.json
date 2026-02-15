@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Web Without Barriers",
+  "version": "1.0",
+  "description": "AI Powered Adaptive Accessibility Extension",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
